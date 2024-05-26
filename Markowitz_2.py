@@ -74,7 +74,10 @@ class MyPortfolio:
         """
         TODO: Complete Task 4 Below
         """
-
+        self.portfolio_weights['XLK'] = 1.0
+        for asset in assets:
+            if asset != 'XLK':
+                self.portfolio_weights[asset] = 0.0
         """
         TODO: Complete Task 4 Above
         """
